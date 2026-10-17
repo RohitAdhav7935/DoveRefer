@@ -1,5 +1,5 @@
 /**
- * ReferCraft — LinkedIn Referral Message Generator
+ * DoveRefer — LinkedIn Referral Message Generator
  * Google Apps Script Web App Controller
  *
  * This file serves the web application and handles optional server-side actions,
@@ -14,7 +14,7 @@
  */
 function doGet(e) {
   return HtmlService.createHtmlOutputFromFile('Index')
-    .setTitle('ReferCraft — LinkedIn Referral Message Generator')
+    .setTitle('DoveRefer — LinkedIn Referral Message Generator')
     .addMetaTag('viewport', 'width=device-width, initial-scale=1.0')
     .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
 }
